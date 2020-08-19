@@ -1,0 +1,247 @@
+
+<html>
+	<head>
+		<title>About Me</title>	
+		<style type="text/css">
+			#mainbox{
+				width:600px;
+				height:2880px;
+				padding:6px 20px 0px 20px;;
+				background-color:#8dcbd6;
+				margin:0 auto;
+			}
+			#dp{
+				display:block;
+				margin-left:auto;
+				margin-right:auto;
+				width:24%;
+				border-radius:50%;
+			}
+			.dropdown{
+				margin:auto;
+				width:30%;
+				overflow:hidden;
+			}
+		
+			.dropbtn{
+				width:190px;
+				margin:auto;
+				font-size:15px;
+				font-weight:bold;
+				background-color:#382f2f;
+				color:#63c4e8;
+				border:none;	
+				
+			}
+			span{
+				display: inline-block;
+				transform: rotate(90deg);
+			}
+			.dropdown-content{
+				display:none;
+				position:absolute;
+				background-color:#8b9cdd;
+				min-width:160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index:1;
+			
+			}
+			
+			.dropdown-content a{
+				color:black;
+				display:block;
+				text-align:middle;
+			
+			}
+			.dropdown-content a:hover{
+				background-color:#499b8f;
+			}
+			.dropdown:hover .dropdown-content{
+				display:block;
+			}
+			#abtme{
+				width:592px;
+				height:130px;
+				background-color:#161a5e;
+				color:#8a9edb;
+				padding-left:7px;
+				padding-right:7px;
+			}
+			.me{
+				font-size:120%;
+				font-color:#bec0e0;
+			}
+			#workshop{
+				width:592px;
+				height:700px;
+				background-color:#161a5e;
+				color:#8a9edb;
+				padding-left:7px;
+				padding-right:7px;
+			}
+			.wrk{
+				width:300px;
+			
+			}
+			figcaption{
+				font-style: italic;
+				text-align:centre;
+				padding-left:80px;
+			}
+			
+			#project{
+				width:592px;
+				height:550px;
+				background-color:#161a5e;
+				color:#8a9edb;
+				padding-left:7px;
+				padding-right:7px;
+			}
+			
+			#hobbies{
+				width:592px;
+				height:850px;
+				background-color:#161a5e;
+				color:#8a9edb;
+				padding-left:7px;
+				padding-right:7px;
+			}
+			#contact{
+				width:592px;
+				height:120px;
+				background-color:#161a5e;
+				color:#8a9edb;
+				padding-left:7px;
+				padding-right:7px;
+			}
+			#education{
+				width:592px;
+				height:250px;
+				background-color:#161a5e;
+				color:#8a9edb;
+				padding-left:7px;
+				padding-right:7px;
+			}
+			
+			
+		</style>
+	
+	</head>
+	<body>
+		
+		<div id=mainbox>
+			<img id="dp" src="display-pic.jpg">
+			</img>
+			<div class="dropdown">
+				<button class="dropbtn">Namrata Shetye
+					<span>&#10095</span>
+					<i class="fa fa-caret-down">
+					</i>
+				</button>
+					<div class="dropdown-content">
+						<a href="#abtme">About me</a>
+						<a href="#workshop">workshops attended</a>
+						<a href="#project">project undertaken</a>
+						<a href="#hobbies">hobbies</a>
+						<a href="#contact">contact</a>
+					</div>
+				
+			</div>
+			<div id="education">
+				<h1 class="me" style="color:#40ede7"><ins>EDUCATION</ins></h1>
+				<ul>
+					<li><b>SSC</b></li><P><em>L.D. Samant Memorial High School</em></p>
+					<li><b>HSSC</b></li><p><em>St. Xaviers Higher Secondary School</em></p>
+					<li><b>B.E. Electonics & Telecommunication Engineering</b></li><p><em>Goa College Of Engineering</em></p>
+				</ul>
+				
+			</div>
+		
+			<div id="abtme">
+				<h1 class="me" style="color:#40ede7"><ins>ABOUT ME</ins></h1>
+				<p> Hello there! I am Namrata Shetye, recent graduate from Goa College of Engineering. I have 
+				    a very keen interest in industrial automation and to develope
+					 user friendly applicayions. I am also passionate about cooking and trekking.</p>
+			</div>
+			
+			<div id="workshop">
+				<h1 class="me" style="color:#40ede7"><ins>WORKSHOPS ATTENDED</ins></h1>
+				<p>Workshops introduce you to the various new softwares
+					and technologies, which intern developes ones interest in
+						some of them. The various workshops that I had attended are:
+					<ul>
+						<li style="color:#c361f4">PLC Workshop</li>
+							<p>Here I learnt to program a PLC
+								and also to wire different I/O devices to 
+								the plc. We even carried out small projects using plc.</p>
+						
+						<li style="color:#c361f4">3D Printing and Designing</li>
+							<p>This was a very interesting workshop, where
+								I learnt to use Computer-Aided-Device CAD to create three
+								dimentionl objects. </p>
+								<figure>
+									<img  class="wrk"src="workshop.jpg"></img>
+									<figcaption>3D PRINTING</figcaption>
+								</figure>	
+					
+						<li style="color:#c361f4">Conventional AI with RASA</li>
+							<p>Here I was introduced to the artificial intelligence
+								for the first time. we tried to build a chatbot with an open
+								source machine learning frameworrk. We also created a library
+								to train the chatbot.</p>
+						
+						<li style="color:#c361f4">Developement of Android / IOS Apps Using Web Technology
+							
+						</li>
+					</ul>
+						
+				</p>
+			</div>
+			<div id="project">
+				<h1 class="me" style="color:#40ede7"><ins>PROJECT UNDERTAKEN</ins></h1>
+				<p>Final year project- <ins>REAL TIME MONITORING AND CONTROL FOR INDUSTRIAL AUTOMATION USING PLC</ins>
+					<ul>	
+						<li>The objective is to automate the existing conventional counting system of bags with the help of
+							sensors and Programmable Logic Controller (PLC).It also aims to control the industrial process locally and to monitor, gather 
+							and process real time data using SCADA.</li>
+						<li>The system also provides efficient database system that will store and manage large amount of data.</li>
+							<img width="300px" src="project.jpg"></img>
+							<figcaption>circuit connection</figcaption>
+					</ul>	
+					From the research work carried out for this project, a paper is published with the title:
+					Real Time Monitoring and Control for Industrial Automation using PLC
+					and it is published at International Journal for Research in Applied Science and Engineering Technology (IJRASET) 
+                     ISSN:2321-9653
+					Volume 8 Issue VII July 2020
+				</p>
+				<p>Click<a style="color:#8a9edb" href="https://www.academia.edu/43693103/Real_Time_Monitoring_and_Control_for_Industrial_Automation_using_PLC"> HERE</a> to know more.</p>
+			</div>
+			<div id="hobbies">
+				<h1 class="me" style="color:#40ede7"><ins>HOBBIES</ins></h1>
+				<p>In my leisure time I like to do various things which gives me immense happiness.</p>
+				<ul>
+					<li style="color:#c361f4">Trekking</li>
+						<p>I just love to visit various watrefalls and to trek down
+							the whole route to see the natures beauty gives me inner peace.</p>
+							<p><img class="wrk" src="waterfall.jpg"></img></p>
+					
+					<li style="color:#c361f4">Cooking</li>
+						<p>I am happy when I am cooking.</p>
+					
+					<li style="color:#c361f4">Craftwork</li>
+						<p>In my leisure time I like to do scrapbooks and other craftwork using waste material.</p>
+					
+					<li style="color:#c361f4">Dance</li>
+						<p>I have taken 3 years of training in classical dance form Katthak.</p>
+				
+				</ul>
+			</div>
+			<div id="contact">
+				<h1 class="me" style="color:#40ede7"><ins>CONTACT</ins></h1>
+				<p><img width="4%"src="mail.jpg"></img> namratashetye25@gmail.com</p>
+				<p><img width="4%"src="location.jpg"></img> Porvorim, Goa 403501</p>
+			</div>
+		</div>
+	
+	</body>
+</html>
